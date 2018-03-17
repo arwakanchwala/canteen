@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <title>my website</title>
+<link href="https://fonts.googleapis.com/css?family=handlee"
+rel="stylesheet">
+
+
+</head>
+<body>
+<body background="https://i.pinimg.com/736x/fd/27/05/fd2705bce278dfd269f71d94d8c4c48e--australian-flags-australian-icons.jpg">
+<!--<h1>Auspoo.com</h1>-->
+<p><a href="https://www.w3schools.com"></a></p>
+
+<div class="section"> 
+<header> 
+    <h1 align="center "style="font-family: cursive;">Auspoo</h1>
+	</header>
+	<div id="mySidenav" class="sidenav">
+	<div class="tab">
+	<button type="button" onclick="myFunction()">home</button>
+	Number: <input type="number" id="myNumber">
+​
+​
+​
+<button onclick="myFunction()"></button>
+​
+​
+​
+<script>
+function myFunction() {
+    document.getElementById("myNumber").stepUp(1);
+}
+</script>
+	<button type="button" onclick="otherf()">other</button>
+	<button type="button" onclick="contact()">contact</button>
+<p id="demo"></p>
+<h2 style="background-color:yello" id="demo1"></h2>
+
+
+<script>
+function myFunction() { 
+    document.getElementById("demo1").innerHTML = "hey,this is my awesomewebsiteand i will tell you all information about the best places of Australia . if you want know about the every places in australia then come ,visit and take knowlwdge. and if you satisfied then log in our website and take more facility even about the event and future places.";
+}
+function otherf()
+{
+	document.getElementById("demo1").innerHTML="Australia is perhaps the most fascinating country on the planet. The sheer collection of its treasures is endless. From spectacular natural wonders to mind-blowing historical sights, this nation-continent never ceases to amaze. It is no wonder that Australia is a magnet for adventurers, explorers, epicureans and nature buffs who visit it by the millions annually. Here is a selection of the most interesting facts about Australia.";
+
+}
+function contact()
+{
+	document.getElementById("demo1").innerHTML="we will add something";
+}
+
+
+
+
+
+var images = ['https://www.inspirock.com/australia/kakadu-national-park/nourlangie-rock-a321547217.jpg','https://s.inspirock.com/ds10/photos/Australia/f/kings-park-and-botanic-garden--1106687157.jpg', 'https://lh3.googleusercontent.com/p/AF1QipN3viDpi4CEDsvORArPXJFugw_bzlE29tVRRGJg=s1600-w1600','https://lh3.googleusercontent.com/p/AF1QipO2f_MSC6WxVx3fgBH_eGhvCc0mxaQbhI58hjMA=s1600-w1600','https://lh3.googleusercontent.com/p/AF1QipONGhDMxciCaJu9fNEpxCxT3R_Wfi367QtE52BK=s1600-w1600','https://lh3.googleusercontent.com/p/AF1QipNXdtAvQduIHDhU_Hty-L5Ezdj5aJDmNFNpdvCy=s1600-w1600'];
+var num = 0;
+function next() {
+    var slider = document.getElementById('slider');
+    num++;
+    if(num >= images.length) {
+        num = 0;
+    }
+    slider.src = images[num];
+}
+function prev() {
+    var slider = document.getElementById('slider');
+    num--;
+    if(num < 0) {
+        num = images.length-1;
+    }
+    slider.src = images[num];
+}
+</script>
+  <!--<button class="tablinks" onclick="openCity(event, 'HOme')">HOME</button>
+  <button class="tablinks" onclick="openCity(event, 'OTher')">Other</button>
+  <button class="tablinks" onclick="openCity(event, 'COntact')">Contact</button>-->
+
+
+
+<!-- Trigger the Modal -->
+  
+            <button onclick="prev()"> Prev </button>
+            <img id="slider" src="https://i.ytimg.com/vi/EW0dh6rRzEY/maxresdefault.jpg" width="900px" height="500px"/>
+            <button onclick="next()"> Next </button>
+        
+<!--<img id="myImg" align="center-left" src="https://i.ytimg.com/vi/EW0dh6rRzEY/maxresdefault.jpg" alt="Trolltunga, Norway" width="900" height="500">-->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+     
+     
+    
+	  
+		 <h1 class="quote" align="center">"thank you for visit"</h1>
+		 </div>
+		 <form>
+		 <lable>first name:</lable>
+		 <input id="user"name="first name"type="text"required/><br/>
+		 <lable>last name:</lable>
+		 <input id="user"name="last name"type="text"required/><br/>
+		 <lable>your e-mail address:</lable>
+		 <input name="Email"type="text" placeholder="example@example@.com"/><br/>
+		 <lable>password:</lable>
+		 <input name="password" type="text"required/>
+		 <input type="submit" value="submit"/>
+		 </form>
+		<!-- <footer class="w3-container w3-teal w3-center w3-margin-top">-->
+  
+  <iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=_JP83o8mgfs&t=19s">
+</iframe>
+
+		 </body>
+</html>
